@@ -1,0 +1,7 @@
+POO - Programação Orientada Objetos
+
+A POO ela tem 4 pilares:
+Abstração: Permite isolar de um objeto somente os conceitos que são necessários para o funcionamento do programa.
+Encapsulamento: Visa ocultar partes internas de um objeto e exibir apenas o necessário para uso externo.
+Herança: Visa passar características de um objeto para outro.
+Polimorfismo: Tem a habilidade de assumir diferentes formas.
