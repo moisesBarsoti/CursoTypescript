@@ -2,7 +2,7 @@ export class Escritor {
     private _ferramenta: Ferramenta | null = null;
     constructor(
         private _name: string
-    ) {} 
+    ) {}
 
     get name(): string {
         return this._name;
@@ -29,7 +29,7 @@ export abstract class Ferramenta {
     constructor(
         private _name: string
     ) {}
-    
+
     abstract escrever(): void;
 
     get name(): string {
@@ -56,3 +56,4 @@ const maquinaDeEscrever = new MaquinaDeEscrever('Máquina');
 console.log(escritor.name);
 console.log(caneta.name);
 console.log(maquinaDeEscrever.name);
+console.log(escritor);
