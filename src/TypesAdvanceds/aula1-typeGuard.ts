@@ -1,4 +1,4 @@
-// Type Guard - Checar para refinar um tipo
+// Type Guard -  para restringir o tipo de uma variável.
 
 export function sum(a: unknown, b: unknown): string | number {
     return typeof a === 'number' && typeof b === 'number' ? a + b : `${a}${b}` 
