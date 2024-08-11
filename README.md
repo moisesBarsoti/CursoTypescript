@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;;
+  <a href="#-tecnologias">Tecnologias</a>
 <br>
 
 ## 🚀 Tecnologias
