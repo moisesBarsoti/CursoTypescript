@@ -1,12 +1,9 @@
-function decorator(classPrototype: any, nameMethod: string, descriptor: PropertyDescriptor): any {
-    console.log(classPrototype);
-    console.log(nameMethod);
-    console.log(descriptor);
+function decorator(classPrototype: any, name: string | symbol): any {
+    let valueProperty: any;
     return {
-        value: function (...args: string[]) {
-            return args[0].toUpperCase();
-        }
-    };
+        get: () => valueProperty,
+        set: (value: any) => valueProperty = value.split('').reverse().join(''),
+    }
 }
 
 export class OnePerson {
@@ -20,7 +17,6 @@ export class OnePerson {
         this.age = age;
     }     
 
-    @decorator
     metodo(msg: string): string {
         return `O nome é: ${this.name} e o sobrenome é: ${this.LastName}`;
     }
