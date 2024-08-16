@@ -1,0 +1,7 @@
+SOLID
+
+S - Principio da responsabilidade única
+O - Principio do aberto/fechado
+L - Principio da substituição de Liskov
+I - Principio da segregação de interface
+D - Principio da inversão de dependência
